@@ -1,0 +1,10 @@
+author: "Tobe O <thosakwe@gmail.com>"
+description: "Dart wrapper over hammer.js."
+homepage: "https://github.com/thosakwe/hammer_dart.git"
+name: "hammer"
+version: "1.0.0-dev"
+dependencies: 
+  func: "^0.1.0"
+  js: "^0.6.1"
+dev_dependencies: 
+  browser: "^0.10.0+2"
