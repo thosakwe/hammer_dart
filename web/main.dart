@@ -12,8 +12,6 @@ void setUpPan() {
   final Element img = pan.querySelector('img');
   num margin = -1579;
 
-  hammer(pan, new HammerOptions(domEvents: true));
-
   pan
     ..on['panstart'].listen((e) {
       margin = num.parse(img.style.marginLeft.replaceAll(_px, ''));

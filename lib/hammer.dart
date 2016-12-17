@@ -71,8 +71,8 @@ abstract class HammerStatic {
   external set Manager(HammerManagerConstructor v);
   external HammerInput get Input;
   external set Input(HammerInput v);
-  external TouchAction get TouchAction;
-  external set TouchAction(TouchAction v);
+  external TouchAction get touchAction;
+  external set touchAction(TouchAction v);
   external TouchInput get TouchInput;
   external set TouchInput(TouchInput v);
   external MouseInput get MouseInput;
@@ -120,7 +120,7 @@ abstract class HammerDefaults implements HammerOptions {
   external bool get domEvents;
   external set domEvents(bool v);
   external bool get enable;
-  external set enable(bool v);
+  // external set enable(bool v);
   external List<
           dynamic /*Tuple of <RecognizerStatic>|Tuple of <RecognizerStatic,RecognizerOptions>|Tuple of <RecognizerStatic,RecognizerOptions,String|List<String>>|Tuple of <RecognizerStatic,RecognizerOptions,String|List<String>,String|Recognizer|List<String|Recognizer>>*/ >
       get preset;
